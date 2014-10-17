@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Canvas Test</title>
+	<link rel="stylesheet" type="text/css" href="canvasdemo.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body style='overflow:hidden; background-color:black;'>
+	<p id='score' style='z-index:5; position:absolute; top:20px; left:20px; color:#FFFFFF'></p>
+	<p id='highscore' style='z-index:5; position:absolute; top:-1px; left:20px; color:#5EFC28'></p>
+	<p id='loading-text' style='color:white; font-size: 500%'>loading...</p>
+	<p id='silly-text' style='color:white; font-size: 50%'>or something might have broken... :P</p>
+    <section>
+        <div id='maindiv'>
+            <canvas id="canvas" style="z-index:99; position:absolute; top:0px; left:0px;">
+                This text is displayed if your browser does not support HTML5 Canvas.
+            </canvas>
+			<canvas id="canvas-background" style="z-index:4; position:absolute; top:0px; left:0px;">
+            </canvas>
+        </div>
+    </section>
+	<script src="http://goct.ca/canvas2/resources.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/sprite.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/menus.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/weapons.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/explosions.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/vehicles.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/environments.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/menus.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/StackBlur.js" type="text/javascript"></script>
+	<script src="http://goct.ca/canvas2/howler.js" type="text/javascript"></script>
+    <script src="http://goct.ca/canvas2/canvas2.js" type="text/javascript"></script>
+</body>
+
+</html>
